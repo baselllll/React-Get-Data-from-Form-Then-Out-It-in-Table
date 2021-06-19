@@ -28,7 +28,7 @@ class formCom extends Component{
     render(){
         return (
             <div>
-                <form style={{paddingTop:'20px', margin:'70px 400px',textAlign:'center',fontSize:'30px'}}>
+                <form style={{paddingTop:'20px',margin: '68px 7px',textAlign:'center',fontSize:'30px'}}>
                     <input type="text" className='mt-3' value={this.state.name} onChange={this.getname} placeholder="Enter Your Name"/><br/>
                     <input type="text" className='mt-3' value={this.state.age} onChange={this.getage} placeholder="Enter Your Age"/><br/>
                     <input type="button" className='btn btn-success w-25' value="Click" onClick={this.handelClick}/><br/>
